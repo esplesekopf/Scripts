@@ -1,0 +1,9 @@
+{
+    "smartmeters": [
+        { "label": "JANZ C3801 (MODBus)", "filename": "janz_c3801_modbus.script" },
+        { "label": "Iskra MT 174 (OBIS)", "filename": "iskra_mt_174_obis.script" },
+        { "label": "Iskra MT 681 (SML)", "filename": "iskra_mt_681_sml.script" },
+        { "label": "eBZ DD3 (OBIS)", "filename": "ebz_dd3_obis.script" }
+    ]
+}
+

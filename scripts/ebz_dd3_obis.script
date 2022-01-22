@@ -1,0 +1,36 @@
+>D
+>B
+=>sensor53 r
+>M 1
+; Device: eBZ DD3 2R06 ODZ1
+; protocol is D0 OBIS ASCII
+; 9600@7E1 for OP-type devices, 9600@8N1 for SM-type devices
++1,14,o,0,9600,SM,1
+; Zählerstand zu +A, tariflos, 
+; Zählerstände Auflösung 10 µW*h (6 Vorkomma- und 8 Nachkommastellen)
+1,1-0:1.8.0*255(@0.001,Energie Bezung,Wh,1_8_0,8
+; Zählerstand zu +A, Tarif 1
+1,1-0:1.8.1*255(@0.001,Energie Bezung T1,Wh,1_8_1,8
+; Zählerstand zu +A, Tarif 2
+1,1-0:1.8.2*255(@0.001,Energie Bezung T2,Wh,1_8_2,8
+; Zählerstand zu -A, tariflos
+1,1-0:2.8.0*255(@0.001,Energie Export,Wh,2_8_0,8
+; Summe der Momentan-Leistungen in allen Phasen, Auflösung 0,01W (5 Vorkomma- und 2 Nachkommastellen)
+1,1-0:16.7.0*255(@1,Leistung,W,16_7_0,18
+; Momentane Leistung in Phase Lx, Auflösung 0,01W (5 Vorkomma- und 2 Nachkommastellen)
+1,1-0:36.7.0*255(@1,Leistung L1,W,36_7_0,18
+1,1-0:56.7.0*255(@1,Leistung L2,W,56_7_0,18
+1,1-0:76.7.0*255(@1,Leistung L3,W,76_7_0,18
+; Spannung in Phase Lx, Auflösung 0,1V (nur über MSB)
+1,1-0:32.7.0*255(@1,Spannung L1,V,32_7_0,1
+1,1-0:52.7.0*255(@1,Spannung L2,V,52_7_0,1
+1,1-0:72.7.0*255(@1,Spannung L3,V,72_7_0,1
+; Statuswort, 4 Byte Information über den Betriebszustand, HEX string
+; tasmota can decode one string per device only!
+;1,1-0:96.5.0*255(@#),Status1,,96_5_0,0
+;1,1-0:96.8.0*255(@#),Status2,,96_8_0,0
+; Geräte-Identifikation, Nach DIN 43863-5 
+1,1-0:96.1.0*255(@#),Identifikation,,96_1_0,0
+;1,1-0:0.0.0*255(@#),Identifikation,,0_0_0,0
+#
+
