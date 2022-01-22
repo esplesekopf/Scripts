@@ -3,8 +3,7 @@
 =>sensor53 r
 >M 1
 +1,14,s,0,9600,ELZ
-1,77070100600100ff@#,Zählernummer,,Wert,0
-1,77070100010800ff@1000,Verbrauch,kWh,ELZ_PV_1.8.0,1
-1,77070100020800ff@1000,Erzeugung,kWh,ELZ_PV_2.8.0,1
+1,77070100600100ff@#,Zaehler ID,,Wert,0
+1,77070100010800ff@1000,Verbrauch,kWh,Total_in,1
+1,77070100020800ff@1000,Erzeugung,kWh,Total_out,1
 #
-

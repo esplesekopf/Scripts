@@ -2,7 +2,7 @@
 >B
 =>sensor53 r
 >M 1
-+1,14,s,0,9600,MT681
++1,14,s,0,9600,MT691
 1,77070100010800ff@1000,Gesamt Verbrauch,KWh,Total_in,3
 1,77070100100700ff@1,Aktueller Verbrauch,W,Power_cur,0
 1,77070100240700ff@1,Aktueller Verbrauch L1,W,Power_p1,0
@@ -11,3 +11,4 @@
 1,77070100020800ff@1000,Gesamt Netzeinspeisung,KWh,Total_out,3
 1,77070100000009ff@#,Zaehler ID,,Meter_id,0|
 #
+
