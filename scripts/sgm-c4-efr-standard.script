@@ -1,0 +1,16 @@
+>B
+=>sensor53 r
+>M 1
++1,14,s,0,9600,
+1,77070100010801ff@1000,Zählerstand Tarif 1,kWh,W1,0
+1,77070100010802ff@1000,Zählerstand Tarif 2,kWh,W2,0
+1,77070100010800ff@1000,Zählerstand Gesamt,kWh,Wges,0
+1,77070100200700ff@1,Spannung L1,V,U1,0
+1,77070100340700ff@1,Spannung L2,V,U2,0
+1,77070100480700ff@1,Spannung L3,V,U3,0
+1,770701001f0700ff@1,Strom L1,A,I1,0
+1,77070100330700ff@1,Strom L2,A,I2,0
+1,77070100470700ff@1,Strom L3,A,I3,0
+1,770701000e0700ff@1,Frequenz,Hz,Fre,0
+1,77070100100700ff@1,Leistung Ges.,W,Pges,0|
+#
