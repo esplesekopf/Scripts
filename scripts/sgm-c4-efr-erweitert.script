@@ -1,6 +1,8 @@
 >D
 >B
 =>sensor53 r
+;Interval fuer das Senden von Daten auf 10Sekunden / Set teleperiod to 10sec  
+tper=10
 >M 1
 +1,14,s,0,9600,
 1,77070100010801ff@1,Verbrauch 1,Wh,W1,0
