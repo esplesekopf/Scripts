@@ -1,0 +1,16 @@
+>D
+>B
+=>sensor53 r
+;Interval fuer das Senden von Daten auf 10Sekunden / Set teleperiod to 10sec  
+tper=10
+>M 1
++1,14,o,0,9600,Strom
+1,1-0:1.8.0*255(@1,Bezug gesamt,kWh,Bezug_gesamt,19
+1,1-0:21.7.0*255(@1,L1,W,L1,18
+1,1-0:41.7.0*255(@1,L2,W,L2,18
+1,1-0:61.7.0*255(@1,L3,W,L3,18
+1,1-0:1.7.0*255(@1,L1+L2+L3,W,Summe_1_2_3,18
+1,1-0:0.0.0*255(@1,Netzbetreiber-ID,,NetID,0
+1,0-0:96.1.255*255(@#),Seriennummer,,serial,0
+1,1-0:96.5.5*255(@1,Status,,Status,0
+#
