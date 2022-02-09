@@ -8,7 +8,8 @@
         { "label": "Itron OpenWay 3.HZ", "filename": "itron_openway_3hz_sml.script" },
 		{ "label": "SGM-C4 EFR Standardwerte", "filename": "sgm-c4-efr-standard.script" },
 		{ "label": "SGM-C4 EFR Erweitert", "filename": "sgm-c4-efr-erweitert.script" },
-		{ "label": "Easymeter Q3DA1004", "filename": "easymeter-q3da1004.script" }
+		{ "label": "Easymeter Q3DA1004", "filename": "easymeter-q3da1004.script" },
+		{ "label": "Easymeter Q3BA1100", "filename": "easymeter-q3BA1100.script" }
     ]
 }
 
