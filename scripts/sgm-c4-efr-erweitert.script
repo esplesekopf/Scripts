@@ -9,7 +9,7 @@
 ;Interval fuer das Senden von Daten auf 10Sekunden / Set teleperiod to 10sec  
 tper=10
 >M 1
-+1,14,s,0,9600,
++1,14,s,0,9600,Strom
 1,77070100010801ff@1,Verbrauch 1,Wh,W1,0
 1,77070100010802ff@1,Verbrauch 2,Wh,W2,0
 1,77070100010800ff@1,Ges.Verbrauch ,Wh,Wges,0
