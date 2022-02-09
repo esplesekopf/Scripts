@@ -10,7 +10,8 @@
 		{ "label": "SGM-C4 EFR Erweitert", "filename": "sgm-c4-efr-erweitert.script" },
 		{ "label": "Easymeter Q3DA1004", "filename": "easymeter-q3da1004.script" },
 		{ "label": "Easymeter Q3BA1100", "filename": "easymeter-q3ba1100.script" },
-		{ "label": "Easymeter Q3MA1200", "filename": "easymeter-q3ma1200.script" }
+		{ "label": "Easymeter Q3MA1200", "filename": "easymeter-q3ma1200.script" },
+	    	{ "label": "Honeywell AS2018M", "filename": "honeywell-as2018m.script" }
     ]
 }
 
