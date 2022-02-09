@@ -1,3 +1,8 @@
+;*****
+; for / fuer ISKRA MT681
+;*****
+;After selecting a script, be sure to activate it and reboot!
+;Nachdem auswaehlen eines Scripts, unbedingt dieses aktivieren und einen Neustart durchfuehren!
 >D
 >B
 =>sensor53 r
