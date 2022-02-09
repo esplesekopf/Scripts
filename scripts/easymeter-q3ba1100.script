@@ -9,7 +9,7 @@
 ;Interval fuer das Senden von Daten auf 10Sekunden / Set teleperiod to 10sec  
 tper=10
 >M
-+1,14,s,1,9600,SML 
++1,14,s,1,9600,Strom
 1,77070100010800ff@1000,Verbrauch,KWh,Power_in,1 
 1,77070100010801ff@1000,Zählerstand Tarif 1,kWh,W1,0
 1,77070100010802ff@1000,Zählerstand Tarif 2,kWh,W2,0
