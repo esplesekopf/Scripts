@@ -22,16 +22,16 @@
 tper=10
 >M 1
 +1,3,o,0,300,Stromz,1,50,2F3F210D0A,063030300D0A
-1,1.8.0(@1,Netzbezug gesamt,kWh,Netzbezug_gesamt,4
-1,1.8.096(@1,Netzbezug Vortag,kWh,Netzbezug_1d,4
-1,1.8.097(@1,Netzbezug 7Tage,kWh,Netzbezug_7d,4
-1,1.8.098(@1,Netzbezug 30Tage,kWh,Netzbezug_30d,4
-1,1.8.099(@1,Netzbezug 365Tage,kWh,Netzbezug_365d,4
-1,2.8.0(@1,Netzeinspeisung gesamt,kWh,Netzeinspeisung_gesamt,4
-1,2.8.096(@1,Netzeinspeisung Vortag,kWh,Netzeinspeisung_Vortag,4
-1,2.8.097(@1,Netzeinspeisung 7Tage,kWh,Netzeinspeisung_7d,4
-1,2.8.098(@1,Netzeinspeisung 30Tage,kWh,Netzeinspeisung_30d,4
-1,2.8.099(@1,Netzeinspeisung 365Tage,kWh,Netzeinspeisung_365d,4
-1,16.7.0(@1,aktuell P,kWh,aktuell_P,4
+1,1.8.0(@1,Netzbezug gesamt,kWh,Netzbezug_gesamt,3
+1,1.8.096(@1,Netzbezug Vortag,kWh,Netzbezug_1d,3
+1,1.8.097(@1,Netzbezug 7Tage,kWh,Netzbezug_7d,3
+1,1.8.098(@1,Netzbezug 30Tage,kWh,Netzbezug_30d,3
+1,1.8.099(@1,Netzbezug 365Tage,kWh,Netzbezug_365d,3
+1,2.8.0(@1,Netzeinspeisung gesamt,kWh,Netzeinspeisung_gesamt,3
+1,2.8.096(@1,Netzeinspeisung Vortag,kWh,Netzeinspeisung_Vortag,3
+1,2.8.097(@1,Netzeinspeisung 7Tage,kWh,Netzeinspeisung_7d,3
+1,2.8.098(@1,Netzeinspeisung 30Tage,kWh,Netzeinspeisung_30d,3
+1,2.8.099(@1,Netzeinspeisung 365Tage,kWh,Netzeinspeisung_365d,3
+1,16.7.0(@1,aktuell P,kW,aktuell_P,3
 1,96.1.0(@1,Zählernummer,,Meter_number,0
 #
