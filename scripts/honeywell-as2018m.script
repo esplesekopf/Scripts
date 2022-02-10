@@ -17,7 +17,7 @@
 ;After selecting a script, be sure to activate it and reboot!
 ;Nachdem auswaehlen eines Scripts, unbedingt dieses aktivieren und einen Neustart durchfuehren!
 >B
-=>sensor53 r
+=>sensor53 r1
 ;Interval fuer das Senden von Daten auf 10Sekunden / Set teleperiod to 10sec  
 tper=10
 >M 1
