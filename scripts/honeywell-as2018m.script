@@ -32,6 +32,6 @@ tper=10
 1,2.8.0*97(@1,Netzeinspeisung 7Tage,kWh,Netzeinspeisung_7d,3
 1,2.8.0*98(@1,Netzeinspeisung 30Tage,kWh,Netzeinspeisung_30d,3
 1,2.8.0*99(@1,Netzeinspeisung 365Tage,kWh,Netzeinspeisung_365d,3
-1,16.7.0(@1,aktuell P,kWh,aktuell_P,3
+1,16.7.0(@1,aktuell P,kW,aktuell_P,3
 1,96.1.0(@1,Zählernummer,,Meter_number,0
 #
