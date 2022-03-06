@@ -1,17 +1,17 @@
 {
     "smartmeters": [
-		{ "label": "JANZ C3801 (MODBus)", "filename": "janz_c3801_modbus.script" },
-		{ "label": "Iskra MT 174 (OBIS)", "filename": "iskra_mt_174_obis.script" },
+		{ "label": "Easymeter Q3BA1100", "filename": "easymeter-q3ba1100.script" },
+		{ "label": "Easymeter Q3DA1004", "filename": "easymeter-q3da1004.script" },
+		{ "label": "Easymeter Q3MA1200", "filename": "easymeter-q3ma1200.script" },
+		{ "label": "eBZ DD3 (OBISs)", "filename": "ebz_dd3_obis.script" },
+		{ "label": "Honeywell AS2018M", "filename": "honeywell-as2018m.script" },
 		{ "label": "Iskra MT 681 (SML)", "filename": "iskra_mt_681_sml.script" },
 		{ "label": "Iskra MT 691 (SML)", "filename": "iskra_mt_691_sml.script" },
-		{ "label": "eBZ DD3 (OBISs)", "filename": "ebz_dd3_obis.script" },
+		{ "label": "Iskra MT 174 (OBIS)", "filename": "iskra_mt_174_obis.script" },
 		{ "label": "Itron OpenWay 3.HZ", "filename": "itron_openway_3hz_sml.script" },
+		{ "label": "Logarex LK13BE", "filename": "logarex_lk13be_obis.script" },		
 		{ "label": "SGM-C4 EFR Standardwerte", "filename": "sgm-c4-efr-standard.script" },
-		{ "label": "SGM-C4 EFR Erweitert", "filename": "sgm-c4-efr-erweitert.script" },
-		{ "label": "Easymeter Q3DA1004", "filename": "easymeter-q3da1004.script" },
-		{ "label": "Easymeter Q3BA1100", "filename": "easymeter-q3ba1100.script" },
-		{ "label": "Easymeter Q3MA1200", "filename": "easymeter-q3ma1200.script" },
-	    	{ "label": "Honeywell AS2018M", "filename": "honeywell-as2018m.script" }
+		{ "label": "SGM-C4 EFR Erweitert", "filename": "sgm-c4-efr-erweitert.script" }	
     ]
 }
 

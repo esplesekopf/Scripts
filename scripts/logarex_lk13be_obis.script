@@ -1,0 +1,31 @@
+>D
+;*****
+; for / fuer Logarex LK13BE
+;*****
+;After selecting a script, be sure to activate it and reboot!
+;Nachdem auswaehlen eines Scripts, unbedingt dieses aktivieren und einen Neustart durchfuehren!
+>B
+=>sensor53 r
+;Interval fuer das Senden von Daten auf 10Sekunden / Set teleperiod to 10sec  
+tper=10
+>M 1
++1,14,o,0,9600,LK13BE,13,30,2F3F210D0A,063035310D0A
+1,1-0:1.8.0*255(@1,Gesamtverbrauch,KWh,Vtotal,4
+1,1-0:1.8.0*96(@1,Verbrauch 1 Tag,KWh,Vtotal_1d,1
+1,1-0:1.8.0*97(@1,Verbrauch 7 Tage,KWh,Vtotal_7d,1
+1,1-0:1.8.0*98(@1,Verbrauch 30 Tage,KWh,Vtotal_30d,1
+1,1-0:1.8.0*99(@1,Verbrauch 365 Tage,KWh,Vtotal_365d,1
+1,1-0:2.8.0*255(@1,Gesamteinspeisung,KWh,Etotal,4
+1,1-0:2.8.0*96(@1,Einspeisung 1 Tag,KWh,Etotal_1d,1
+1,1-0:2.8.0*97(@1,Einspeisung 7 Tage,KWh,Etotal_7d,1
+1,1-0:2.8.0*98(@1,Einspeisung 30 Tage,KWh,Etotal_30d,1
+1,1-0:2.8.0*99(@1,Einspeisung 365 Tage,KWh,Etotal_365d,1
+1,1-0:16.7.0*255(@1,Netz Leistung,W,current1,1
+1,1-0:14.7.0*255(@1,Netz Frequenz,Hz,current2,2
+1,1-0:31.7.0*255(@1,Strom L1,A,current3,1
+1,1-0:32.7.0*255(@1,Spannung L1,V,current4,1
+1,1-0:51.7.0*255(@1,Strom L2,A,current5,1
+1,1-0:52.7.0*255(@1,Spannung L2,V,current6,1
+1,1-0:71.7.0*255(@1,Strom L3,A,current7,1
+1,1-0:72.7.0*255(@1,Spannung L3,V,current8,1
+#
