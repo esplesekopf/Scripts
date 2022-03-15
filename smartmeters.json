@@ -11,7 +11,8 @@
 		{ "label": "Itron OpenWay 3.HZ", "filename": "itron_openway_3hz_sml.script" },
 		{ "label": "Logarex LK13BE", "filename": "logarex_lk13be_obis.script" },		
 		{ "label": "SGM-C4 EFR Standardwerte", "filename": "sgm-c4-efr-standard.script" },
-		{ "label": "SGM-C4 EFR Erweitert", "filename": "sgm-c4-efr-erweitert.script" }	
+		{ "label": "SGM-C4 EFR Erweitert", "filename": "sgm-c4-efr-erweitert.script" },
+		{ "label": "NUR Test fuer LandisGyr und Siemens", "filename": "test-landis-siemens.script" },
     ]
 }
 
