@@ -2,6 +2,18 @@
 ;*****
 ; for / fuer ISKRA MT174
 ;*****
+;Works ONLY with hardware seriell on esplesekopf
+;Arbeitet nur mit der Seriellen Hardware Schnittstelle des ESPLesekopf!
+;Set Jumper to / Setze Jumper
+; --- ---
+; |o   o|
+; --- ---
+;  o   o
+;  o   o
+;  o   o
+; --- ---
+; |o   o|
+; --- ---
 ;After selecting a script, be sure to activate it and reboot!
 ;Nachdem auswaehlen eines Scripts, unbedingt dieses aktivieren und einen Neustart durchfuehren!
 >B
@@ -9,7 +21,7 @@
 ;Interval fuer das Senden von Daten auf 10Sekunden / Set teleperiod to 10sec  
 tper=10
 >M 1
-+1,14,o,0,300,STROM,1,100,2F3F210D0A
++1,3,o,0,300,STROM,1,100,2F3F210D0A
 1,1-0:1.8.1*255(@1,Gesamt Verbrauch,KWh,Total_in,3
 1,1-0:2.8.1*255(@1,Gesamt Netzeinspeisung,KWh,Total_out,3
 1,1-0:0.0.0*255(@#),Zaehler ID,,Meter_number,0
