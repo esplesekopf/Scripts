@@ -11,5 +11,5 @@ tper=10
 >M 1
 +1,14,s,0,9600,Strom
 1,77070100010801ff@1000,Gesamt Verbrauch,KWh,Total_in,3
-1,77070100f0700ff@1,Aktueller Verbrauch,W,Power_cur,0
+1,770701000f0700ff@1,Aktueller Verbrauch,W,Power_cur,0
 #
