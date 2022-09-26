@@ -51,7 +51,7 @@ ends
 1,3.7.0(@1,Blindleistung_Q+,kvar,Q+,3
 1,4.7.0(@1,Blindleistung_Q-,kvar,Q-,3
 1,32.7(@1,Spannung_L1,V,V_L1,2
-1,52.7(@1,Spannung_L3,V,V_L2,2
+1,52.7(@1,Spannung_L2,V,V_L2,2
 1,72.7(@1,Spannung_L3,V,V_L3,2  
 1,31.7(@1,Strom_L1,A,I_L1,2  
 1,51.7(@1,Strom_L2,A,I_L2,2  
