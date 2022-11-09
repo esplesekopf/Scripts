@@ -1,0 +1,22 @@
+>D
+;*****
+; for / fuer ISKRA MT631
+;*****
+;After selecting a script, be sure to activate it and reboot!
+;Nachdem auswaehlen eines Scripts, unbedingt dieses aktivieren und einen Neustart durchfuehren!
+>B
+=>sensor53 r
+;Interval fuer das Senden von Daten auf 10Sekunden / Set teleperiod to 10sec  
+tper=10
+>M 1
++1,14,s,0,9600,Strom
+1,77070100010800ff@1000,Gesamt Verbrauch,KWh,Total_in,3
+1,77070100010801ff@1000,Gesamt T1,KWh,Total_inT1,3
+1,77070100010802ff@1000,Gesamt T2,KWh,Total_inT2,3
+1,77070100100700ff@1,Aktueller Verbrauch,W,Power_cur,0
+1,77070100240700ff@1,Aktueller Verbrauch L1,W,Power_p1,0
+1,77070100380700ff@1,Aktueller Verbrauch L2,W,Power_p2,0
+1,770701004c0700ff@1,Aktueller Verbrauch L3,W,Power_p3,0
+1,77070100020800ff@1000,Gesamt Netzeinspeisung,KWh,Total_out,3
+1,77070100000009ff@#,Zaehler ID,,Meter_id,0|
+#
