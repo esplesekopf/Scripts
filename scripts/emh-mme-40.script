@@ -1,0 +1,14 @@
+>D
+;*****
+; for / fuer EMH mMe4.0
+;*****
+;After selecting a script, be sure to activate it and reboot!
+;Nachdem auswaehlen eines Scripts, unbedingt dieses aktivieren und einen Neustart durchfuehren!
+>B
+->sensor53 r
+>M 1
++1,1,s,0,9600,Strom,,10
+1,77070100010800FF@1000,Total Consumed,kWh,counter_pos,3
+1,77070100020800FF@1000,Total Feed,kWh,counter_neg,3
+1,77070100100700FF@1,Power,W,power,0
+#
