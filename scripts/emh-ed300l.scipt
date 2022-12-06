@@ -1,0 +1,13 @@
+>D    
+;*****
+; for / fuer EMH ED300L
+;*****
+;After selecting a script, be sure to activate it and reboot!
+;Nachdem auswaehlen eines Scripts, unbedingt dieses aktivieren und einen Neustart durchfuehren!
+>B   
+->sensor53 r  
+>M 1  
++1,14,s,0,9600,Haus  
+1,77070100100700FF@1,Aktuell,W,Power_curr,0  
+1,77070100010800FF@1000,Zählerstand Verb.,kWh,Tariflos1,2  
+1,77070100020800FF@1000,Zählerstand Einsp.,kWh,Tariflos2,2  
