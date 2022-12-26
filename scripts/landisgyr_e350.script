@@ -1,0 +1,68 @@
+>D
+;*****
+; for / fuer Landys+Gyr E350
+;*****
+;Works ONLY with hardware seriell on esplesekopf
+;Arbeitet nur mit der Seriellen Hardware Schnittstelle des ESPLesekopf!
+;Set Jumper to / Setze Jumper
+; --- ---
+; |o   o|
+; --- ---
+;  o   o
+;  o   o
+;  o   o
+; --- ---
+; |o   o|
+; --- ---
+;After selecting a script, be sure to activate it and reboot!
+;Nach dem Auswaehlen eines Scripts, dieses unbedingt aktivieren und einen Neustart durchfuehren!
+res=0
+scnt=0
+>B
+=>sensor53 r
+;Interval fuer das Senden von Daten auf 10Sekunden / Set teleperiod to 10sec
+>F
+;count 100ms
+scnt+=1
+switch scnt
+case 6
+;set sml driver to 300 baud and send /?! as HEX to trigger the Meter
+res=sml(1 0 300)
+res=sml(1 1 "2F3F210D0A")
+;1800ms later \> Send ACK and ask for switching to 9600 baud
+case 18
+res=sml(1 1 "063035300D0A")
+;2000ms later \> Switching sml driver to 9600 baud
+case 20
+res=sml(1 0 9600)
+;Restart sequence after 50x100ms
+case 50
+; 5000ms later \> restart sequence
+scnt=0
+ends
+>M 1
+; +<M>,<rxGPIO>,<type>,<flag>,<parameter>,<jsonPrefix>{,<txGPIO>,<txPeriod>,<cmdTelegram>}
++1,3,o,0,9600,,1
+
+; <M>,<decoder>@<scale><offs>,<label>,<UoM>,<var>,<precision>
+; <decoder>: OBIS: ASCII OBIS code terminated with ( character which indicates the start of the meter value
+; <scale>	This can be a fraction (e.g., 0.1 = result * 10), or a negative value. When decoding a string result (e.g. meter serial number), use # character for this parameter For OBIS, you need a ) termination character after the # character.
+
+1,0.0(@#),Zählernummer,,Meter_number,0
+1,1.8.0(@1,Zählerstand Bezug,kWh,Zaehlerstand_Import,3
+1,1.8.1(@1,Zählerstand Bezug 1,kWh,Zaehlerstand_T1_Import,3
+1,1.8.2(@1,Zählerstand Bezug 2,kWh,Zaehlerstand_T2_Import,3
+1,1.8.3(@1,Zählerstand Bezug 3,kWh,Zaehlerstand_T3_Import,3
+1,1.8.4(@1,Zählerstand Bezug 4,kWh,Zaehlerstand_T4_Import,3
+1,2.8.0(@1,Zählerstand Einspeisung,kWh,Zaehlerstand_Export,3
+
+1,16.7(@1,Aktuelle Leistung,kW,Current_Power,2
+
+1,32.7(@1,Spannung Phase 1,V,Voltage_Phase_1,0
+1,52.7(@1,Spannung Phase 2,V,Voltage_Phase_2,0
+1,72.7(@1,Spannung Phase 3,V,Voltage_Phase_3,0
+
+1,31.7(@1,Stromstärke Phase 1,A,Current_Phase_1,2
+1,51.7(@1,Stromstärke Phase 2,A,Current_Phase_2,2
+1,71.7(@1,Stromstärke Phase 3,A,Current_Phase_3,2
+#
