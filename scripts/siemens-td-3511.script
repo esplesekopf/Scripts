@@ -44,7 +44,7 @@ ends
 1,0.0.0(@1,Zählernummer,,Meter_number,0  
 1,0.9.1(@#),Zeitstempel,Uhr,time-stamp,0  
 1,1.8.0(@1,HT+NT Zählerstand,KWh,Total_in,3  
-1,2.8.0(@1,Zählerstand Einspeisung,KWh,Total_in,3
+1,2.8.0(@1,Zählerstand Einspeisung,KWh,Total_out,3
 1,1.8.1(@1,Haupttarif(HT),KWh,HT_Total_in,3  
 1,1.8.2(@1,Nebentarif(NT),KWh,NT_Total_in,3  
 1,1.7.0(@1,Wirkleistung_P+,kW,Pp,3  
