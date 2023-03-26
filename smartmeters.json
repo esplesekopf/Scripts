@@ -1,6 +1,6 @@
 {
     "smartmeters": [
-		{ "label": "DZG DVS7412.1T", "filename": "dzg-dvs7412-1T.script" },
+	    	{ "label": "DZG DVS7412.1T", "filename": "dzg-dvs7412-1T.script" },
 		{ "label": "Easymeter Q3BA1100", "filename": "easymeter-q3ba1100.script" },
 		{ "label": "Easymeter Q3DA1004", "filename": "easymeter-q3da1004.script" },
 		{ "label": "Easymeter Q3MA1200", "filename": "easymeter-q3ma1200.script" },
@@ -14,6 +14,7 @@
 		{ "label": "Iskra MT 681 (SML)", "filename": "iskra_mt_681_sml.script" },
 		{ "label": "Iskra MT 691 (SML)", "filename": "iskra_mt_691_sml.script" },
 		{ "label": "Iskra MT 174 (OBIS)", "filename": "iskra_mt_174_obis.script" },
+		{ "label": "ITRON ACE3000 Typ 260", "filename": "ace3000-260.script" },		
 		{ "label": "Itron OpenWay 3.HZ", "filename": "itron_openway_3hz_sml.script" },
 		{ "label": "LandisGyr E350", "filename": "landisgyr_e350.script" },
 		{ "label": "Logarex LK13BE", "filename": "logarex_lk13be_obis.script" },
