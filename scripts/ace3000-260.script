@@ -1,0 +1,27 @@
+>D
+;*****
+; for / fuer easymeter Honeywell AS2018M
+;*****
+;Works ONLY with hardware seriell on esplesekopf
+;Arbeitet nur mit der Seriellen Hardware Schnittstelle des ESPLesekopf!
+;Set Jumper to / Setze Jumper
+; --- ---
+; |o   o|
+; --- ---
+;  o   o
+;  o   o
+;  o   o
+; --- ---
+; |o   o|
+; --- ---
+;After selecting a script, be sure to activate it and reboot!
+;Nachdem auswaehlen eines Scripts, unbedingt dieses aktivieren und einen Neustart durchfuehren!
+>B
+=>sensor53 r1
+;Interval fuer das Senden von Daten auf 10Sekunden / Set teleperiod to 10sec  
+tper=10
+>M 1
++1,3,o,16,300,STROM,1,50,2F3F210D0A
+1,1.8.0(@1,TotalImport,KWh,Total_Import,4
+1,2.8.0(@1,TotalExport,KWh,Total_Export,4
+#
