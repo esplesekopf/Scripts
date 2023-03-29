@@ -23,6 +23,7 @@
 		{ "label": "SGM-C4 EFR Erweitert", "filename": "sgm-c4-efr-erweitert.script" },
 		{ "label": "SGM-DD EFR", "filename": "sgm-dd-efr.script" },
 		{ "label": "Siemens TD3511", "filename": "siemens-td-3511.script" },
+	    	{ "label": "ZPA Smart Energy ZPA GH 305", "filename": "zpa_gh_305.script" },
 		{ "label": "NUR Test fuer LandisGyr", "filename": "test-landis.script" }
     ]
 }
