@@ -1,0 +1,26 @@
+>D
+;*****
+; for / fuer ZPA GH 305
+;*****
+;After selecting a script, be sure to activate it and reboot!
+;Nachdem auswaehlen eines Scripts, unbedingt dieses aktivieren und einen Neustart durchfuehren!
+>B
+=>sensor53 r
+;Interval fuer das Senden von Daten auf 10Sekunden / Set teleperiod to 10sec  
+tper=10
+>M 1
++1,14,s,0,9600,Strom
+1,77070100010800ff@1000,Verbrauch,kWh,Total_Bezug,3
+1,77070100020800ff@1000,Einspeisung,kWh,Total_Einspeisung,3
+1,770701000E0700FF@1,Netz Frequenz,Hz,netz_frequenz,2
+1,77070100100700FF@1,aktuelle Wirkleistung,W,aktuelle_wirkleistung,0
+1,770701001F0700FF@1,Strom L1,A,strom_l1,3
+1,77070100200700FF@1,Spannung L1,V,spannung_l1,2
+1,77070100240700FF@1,Wirkleistung L1,W,wirkleistung_l1,0
+1,77070100330700FF@1,Strom L2,A,strom_l2,3
+1,77070100340700FF@1,Spannung L2,V,spannung_l2,2
+1,77070100380700FF@1,Wirkleistung L2,W,wirkleistung_l2,0
+1,77070100470700FF@1,Strom L3,A,strom_l3,3
+1,77070100480700FF@1,Spannung L3,V,spannung_l3,2
+1,770701004C0700FF@1,Wirkleistung L3,W,wirkleistung_l3,0
+#
