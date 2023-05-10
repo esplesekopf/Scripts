@@ -1,0 +1,35 @@
+>D
+;*****
+; for / fuer Apator LEPOS" (v3.060) !Vielen Dank an Daniel!
+;*****
+;After selecting a script, be sure to activate it and reboot!
+;Nachdem auswaehlen eines Scripts, unbedingt dieses aktivieren und einen Neustart durchfuehren!
+>B
+=>sensor53 r
+;Interval fuer das Senden von Daten auf 10Sekunden / Set teleperiod to 10sec  
+tper=10
+>M 1  
++1,3,s,0,9600
+1,77070100010800FF@1,Zählerstand Total,Wh,Zählerstand_total,1
+1,77070100010800FF@1000,Zählerstand Total,kWh,Zählerstand_total_kwh,1
+1,770701000E0700FF@1,Netz Frequenz,Hz,Netz_Frequenz,1
+1,77070100100700FF@1,aktuelle Wirkleistung,W,aktuelle_Wirkleistung,0
+1,=h   ----
+1,770701001F0700FF@1,Strom L1,A,Strom_L1,2
+1,77070100330700FF@1,Strom L2,A,Strom_L2,2
+1,77070100470700FF@1,Strom L3,A,Strom_L3,2
+1,=h   ----
+1,77070100200700FF@1,Spannung L1,V,Spannung_L1,1
+1,77070100340700FF@1,Spannung L2,V,Spannung_L2,1
+1,77070100480700FF@1,Spannung L3,V,Spannung_L3,1
+1,=h   ----
+1,77070100240700FF@1,Wirkleistung L1,W,Wirkleistung_L1,0
+1,77070100380700FF@1,Wirkleistung L2,W,Wirkleistung_L2,0
+1,770701004C0700FF@1,Wirkleistung L3,W,Wirkleistung_L3,0
+1,=h   ----
+1,77070100510701FF@1,delta phi U L1/L2,°,delta_phi_U_L1-L2,0
+1,77070100510702FF@1,delta phi U L1/L3,°,delta_phi_U_L1-L3,0
+1,77070100510704FF@1,delta phi I/U  L1,°,delta_phi_I_U_L1,0
+1,7707010051070FFF@1,delta phi I/U L2,°,delta_phi_I_U_L2,0
+1,7707010051071AFF@1,delta phi I/U L3,°,delta_phi_I_U_L3,0
+#
