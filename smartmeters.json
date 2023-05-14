@@ -15,7 +15,7 @@
 		{ "label": "Iskra MT 681 (SML)", "filename": "iskra_mt_681_sml.script" },
 		{ "label": "Iskra MT 691 (SML)", "filename": "iskra_mt_691_sml.script" },
 		{ "label": "Iskra MT 174 (OBIS)", "filename": "iskra_mt_174_obis.script" },
-	        { "label": "Iskra MT 175 (SML)", "filename": "iskra_mt_175_obis.script" },
+	        { "label": "Iskra MT 175 (SML)", "filename": "iskra_mt_175_sml.script" },
 		{ "label": "ITRON ACE3000 Typ 260", "filename": "ace3000-260.script" },		
 		{ "label": "Itron OpenWay 3.HZ", "filename": "itron_openway_3hz_sml.script" },
 		{ "label": "LandisGyr E350", "filename": "landisgyr_e350.script" },
