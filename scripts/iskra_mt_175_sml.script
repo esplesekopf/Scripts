@@ -1,6 +1,6 @@
 >D
 ;*****
-; for / fuer ISKRA MT175 (MNR20230420) Vielen Dank an Marcel!
+; for / fuer ISKRA MT175 (MNR20230420) Vielen Dank an Marcel und Stephan!
 ;*****
 ;After selecting a script, be sure to activate it and reboot!
 ;Nachdem auswaehlen eines Scripts, unbedingt dieses aktivieren und einen Neustart durchfuehren!
@@ -9,16 +9,16 @@
 ;Interval fuer das Senden von Daten auf 10Sekunden / Set teleperiod to 10sec  
 tper=10
 >M 1
-+1,14,s,0,9600,MT175
-1,77070100010800ff@1000,Zaehlerstand Bezug,kWh,Total_in,3
-1,77070100010801ff@1000,Zaehlerstand Bezug NT,kWh,NT_in,3			;nur speziell im vorliegenden Fall, ggf. Dokumentation
-1,77070100010802ff@1000,Zaehlerstand Bezug HT,kWh,HT_in,3			;oder tatsächliche Klemmreihenfolge prüfen (lassen)!
-1,77070100100700ff@1,Aktuelle Gesamtwirkleistung,W,Power_cur,3
-1,77070100240700ff@1,Aktuelle Wirkleistung L1,W,Power_p1,3
-1,77070100380700ff@1,Aktuelle Wirkleistung L2,W,Power_p2,3
-1,770701004c0700ff@1,Aktuelle Wirkleistung L3,W,Power_p3,3
-1,77070100020800ff@1000,Zaehlerstand Lieferung,kWh,Total_out,3
-1,77070100020801ff@1000,Zaehlerstand Lieferung,kWh,NT_out,3			;siehe vorherige Anmerkung 
-1,77070100020802ff@1000,Zaehlerstand Lieferung,kWh,HT_out,3	
++1,14,s,0,9600,Strom
+1,77070100010800ff@1000,Gesamt Verbrauch,kWh,Total_in,3
+1,77070100010801ff@1000,Gesamt Verbrauch T 1,kWh,HT_in,3            ;nur speziell im vorliegenden Fall, ggf. Dokumentation
+1,77070100010802ff@1000,Gesamt Verbrauch T 2,kWh,NT_in,3            ;oder tatsächliche Klemmreihenfolge prüfen (lassen)!
+1,77070100100700ff@1,Aktueller Verbrauch,W,Power_cur,0
+1,77070100240700ff@1,Aktueller Verbrauch L1,W,Power_p1,0
+1,77070100380700ff@1,Aktueller Verbrauch L2,W,Power_p2,0
+1,770701004c0700ff@1,Aktueller VerbrauchL3,W,Power_p3,0
+1,77070100020800ff@1000,Gesamt Einspeisung,kWh,Total_out,3
+1,77070100020801ff@1000,Gesamt Einspeisung T 1,kWh,HT_out,3            ;siehe vorherige Anmerkung 
+1,77070100020802ff@1000,Gesamt Einspeisung T 2,kWh,NT_out,3    
 1,77070100000009ff@#,Zaehler ID,,Meter_id,0|
 #
