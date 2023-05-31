@@ -2,7 +2,7 @@
 >B
 ->sensor53 r
 >M 1
-+1,13,s,16,9600,SML
++1,14,s,16,9600,SML
 1,77070100600100ff@#,Server ID,,server_id,0
 1,77070100020800ff@1000,Export (Total),kWh,export_total_kwh,4
 1,77070100010800ff@1000,Consumption (Total),kWh,total_kwh,4
