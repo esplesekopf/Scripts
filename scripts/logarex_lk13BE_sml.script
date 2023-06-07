@@ -1,0 +1,31 @@
+>D
+;*****
+; for / fuer Logarex LK13BE SML!
+;*****
+;After selecting a script, be sure to activate it and reboot!
+;Nachdem auswaehlen eines Scripts, unbedingt dieses aktivieren und einen Neustart durchfuehren!
+>B
+=>sensor53 r
+;Interval fuer das Senden von Daten auf 10Sekunden / Set teleperiod to 10sec  
+tper=10
+>M 1
++1,14,s,0,9600,LK13BE
+1,77070100010800ff@1000,Gesamt Verbauch,KWh,Total_in,4
+1,77070100020800ff@1000,Gesamt Einspeisung,KWh,Total_out,4
+1,77070100100700ff@1,Aktueller Verbrauch,W,Power_curr,0
+1,77070100200700ff@1,Spannung L1,V,Volt_l1,1
+1,77070100340700ff@1,Spannung L2,V,Volt_l2,1
+1,77070100480700ff@1,Spannung L3,V,Volt_l3,1
+1,770701001f0700ff@1,Strom L1,A,Amperage_l1,1
+1,77070100330700ff@1,Strom L2,A,Amperage_l2,1
+1,77070100470700ff@1,Strom L3,A,Amperage_l3,1
+1,77070100240700ff@1,Akt. Verbrauch L1,W,Power_curr_l1,0
+1,77070100380700ff@1,Akt. Verbrauch L2,W,Power_curr_l2,0
+1,770701004c0700ff@1,Akt. Verbrauch L3,W,Power_curr_l3,0
+1,770701000e0700ff@1,Frequenz,Hz,frequency,0
+1,77070100510701FF@1,PWinkel U L1/L2,°,delta_phi_U_L1-L2,0
+1,77070100510702FF@1,PWinkel U L1/L3,°,delta_phi_U_L1-L3,0
+1,77070100510704FF@1,PWinkel I/U L1,°,delta_phi_I_U_L1,0
+1,7707010051070FFF@1,PWinkel I/U L2,°,delta_phi_I_U_L2,0
+1,7707010051071AFF@1,PWinkel I/U L3,°,delta_phi_I_U_L3,0
+#
