@@ -34,9 +34,8 @@ res=sml(1 1 "063035300D0A")
 ;2000ms later \> Switching sml driver to 9600 baud
 case 20
 res=sml(1 0 9600)
-;Restart sequence after 50x100ms
+;6000ms later \> Restart sequence
 case 60
-; 6000ms later \> restart sequence
 scnt=0
 ends
 >M 1
