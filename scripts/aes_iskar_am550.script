@@ -1,0 +1,30 @@
+>D
+;*****
+; for / fuer AES Crypted ISKAR AM550 Oesterreich / Austria
+; Danke an Michael!
+;*****
+;After selecting a script, be sure to activate it and reboot!
+;Nachdem auswaehlen eines Scripts, unbedingt dieses aktivieren und einen Neustart durchfuehren!
+>B
+smlj=0
+=>sensor53 r
+R
+smlj=0
+S
+if upsecs>22
+then
+smlj|=1
+endif
+>M 1
++1,14,r,0,9600,Home
+1,=so3,256
+1,=so4,Hier den Decryption Key eingeben
+1,020909x14UUuuUUuu@1000,+A,kWh,+A,3
+1,020909x19UUuuUUuu@1000,-A,kWh,-A,3
+1,020909x24UUuuUUuu@1000,+R,kvarh,+R,3
+1,020909x29UUuuUUuu@1000,-R,kvarh,-R,3
+1,020909x34UUuuUUuu@1,+P,W,+P,0
+1,020909x39UUuuUUuu@1,-P,W,-P,0
+1,020909x44UUuuUUuu@1,+Q,var,+P,3
+1,020909x49UUuuUUuu@1,-Q,var,-P,3
+#
