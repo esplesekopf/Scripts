@@ -20,6 +20,7 @@
 	        { "label": "Iskra MT 175 (SML)", "filename": "iskra_mt_175_sml.script" },
 		{ "label": "ITRON ACE3000 Typ 260", "filename": "ace3000-260.script" },		
 		{ "label": "Itron OpenWay 3.HZ", "filename": "itron_openway_3hz_sml.script" },
+	        { "label": "KAIFA MB310H4BDE", "filename": "kaifa_mb310h4bde_sml.script" },
 		{ "label": "LandisGyr E350", "filename": "landisgyr_e350.script" },
 	    	{ "label": "Logarex LK13BE SML", "filename": "logarex_lk13be_sml.script" },
 		{ "label": "Logarex LK13BE OBIS", "filename": "logarex_lk13be_obis.script" },
