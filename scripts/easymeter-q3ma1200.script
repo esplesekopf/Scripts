@@ -16,7 +16,6 @@ tper=10
 1,77070100010800ff@1000,Ges. Verbrauch,kWh,W_total,1
 1,77070100010801ff@1000,Verbrauch 1,kWh,W_1,1
 1,77070100010802ff@1000,Verbrauch 2,kWh,W_2,1
-1,77070100020800ff@1000,Einspeisung,KWh,W_total_out,1 
 1,77070100100700ff@1,Leistung ges.,W,P_total,1
 1,77070100240700ff@1,Leistung L1,W,P_L1,1
 1,77070100380700ff@1,Leistung L2,W,P_L2,1
